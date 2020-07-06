@@ -192,6 +192,12 @@ a:hover{
 .button.primary{
   background-color: gray;
 }
+button{
+  font-size: 1.6rem;
+}
+.full-width {
+  width: 100%;
+}
 
 /* Cart */
 
@@ -243,4 +249,17 @@ align-items: flex-end;
   flex: 1 1;
   font-size: 2.5rem;
   text-align: right;
+}
+.cart-action button{
+  padding: 1rem;
+  border: .1rem solid #111b22;
+  cursor:pointer ;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.cart-action button:hover{
+  background-color: gold;
+}
+.cart-action button{
+  background-color: #f8f8f8;
 }
